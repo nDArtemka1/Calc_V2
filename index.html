@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-flex">
+            <h3>Команды</h3>
+            <section><input class="input__command" id="js"></input></section>
+            <button class="btn" id="run">Вывести</button>
+            
+            <h3>Здесь отображаются введеные команды</h3>
+            <section><textarea disabled="disabled" class="value__command" id="js"></textarea></section>
+            
+        </div>
+    
+        <div class="container-flex">
+            <h3>Результат</h3>
+            <section><iframe class="output__command" id="res" src=about:blank></iframe></section>
+        </div>
+    </div>
+
+
+<script src="./scripts/script.js"></script>
+</body>
+</html>

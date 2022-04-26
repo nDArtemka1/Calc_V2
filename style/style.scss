@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end
+}
+
+.input__command {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.value__command {
+    width: 350px;
+    height: 200px;
+    margin-right: 20px;
+    white-space: pre-line;
+    resize: none;
+}
+
+.output__command {
+    width: 350px;
+    height: 200px;
+    resize: none;
+}
